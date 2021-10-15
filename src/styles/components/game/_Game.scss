@@ -1,0 +1,42 @@
+.time{
+  font-size: $l-size;
+  padding-top: $lx-size;
+  font-weight: bold;
+}
+
+.clue{
+  font-size: $lx-size;
+  padding-top: 12rem;
+  text-align: center;
+  height: 15rem;
+}
+
+.category {
+  font-size: $m-size;
+  padding-top: $s-size;
+}
+
+.team-name {
+  font-size: $l-size;
+  padding: $m-size 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.game-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 60rem;
+  
+}
+
+.game-container{
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  justify-content: space-around;
+  align-items: center;
+  
+}

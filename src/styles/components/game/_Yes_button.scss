@@ -1,0 +1,15 @@
+.yes-button {
+  border: 3px solid $yes-color;
+}
+
+.yes-button:active{
+  background-color: $button-color;
+  animation-name: yes-color;
+  animation-duration: .2s;
+  animation-direction: alternate;
+}
+
+@keyframes yes-color {
+  from {background-color: $button-color;}
+  to {background-color: $yes-color;}
+}
